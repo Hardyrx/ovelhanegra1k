@@ -1,14 +1,30 @@
-POSICIONAMENTO LUCRATIVO - VERSÃO VISUAL
+POSICIONAMENTO LUCRATIVO - SITE
 
-Esta versão usa as artes aprovadas como as três primeiras dobras da landing page,
-em vez de blocos genéricos em HTML.
+ARQUIVOS
+- index.html            (site completo, sem dependências externas)
+- assets/               (artes recortadas e fontes)
 
-Arquivos:
-- index.html
-- assets/dobra-01-hero.jpg
-- assets/dobra-02-problema.jpg
-- assets/dobra-03-aprenda-beneficios.jpg
-- assets/referencia-completa.jpg
+PARA TESTAR
+Abra o index.html no navegador.
 
-Para testar: abra index.html no navegador.
-Para publicar: envie a pasta para Vercel/Netlify/GitHub Pages.
+PARA PUBLICAR
+Envie a pasta inteira para Vercel, Netlify ou GitHub Pages.
+
+O QUE VOCÊ PRECISA CONFIGURAR (1 minuto)
+1. Abra o index.html e procure por "CONFIGURAÇÃO" perto do final do arquivo.
+2. Cole o link do checkout da Kiwify em checkoutEbook.
+   Exemplo: checkoutEbook: 'https://pay.kiwify.com.br/XXXXXXX'
+   Com o link preenchido, TODOS os botões de compra vão direto pro checkout.
+   Sem o link, os botões apenas rolam até a seção de planos.
+
+PREÇO
+O preço (R$ 27,90) está escrito em 2 lugares do index.html:
+na seção "planos" (class="price") e na barra fixa do celular (class="bar").
+Procure por 27,90 e troque nos dois.
+
+CONFIRA ANTES DE PUBLICAR
+- "Garantia de 7 dias" aparece no card de preço e no FAQ. Confirme que bate
+  com a garantia configurada no seu produto na Kiwify.
+- As artes do hero e das seções foram recortadas das imagens que você enviou.
+  O celular de perfil mostra "1,2M seguidores" como parte da arte. Se isso
+  não for um resultado real seu, troque a imagem assets/perfil-arte.jpg.
